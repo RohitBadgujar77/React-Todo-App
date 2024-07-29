@@ -9,7 +9,7 @@ const WarnMsg = () => {
     itemContext.warnMsg.setWarnMsg(0);
   }
     return (itemContext.warnMsg.warnMsg ? <><div className={`warnMsg ${itemContext.warnMsg.warnMsg ? `moveDown` : `moveUp`}`}>
-      Todo box cannot be empty
+      Todo-item cannot be empty...!
       <MdCancel className="cancelBtn" onClick={changeMsg}/>
       </div>
     </> : <></>);

@@ -57,6 +57,7 @@
 @media (max-width: 450px) {
     .todoData {
         font-size: 1rem;
+        width: calc(60% - 30px);
     }
     .todoDate {
         font-size: 0.9rem;
