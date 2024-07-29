@@ -24,7 +24,7 @@ const InputBox = () => {
     <div className="inputCont">
     <input
         type="text"
-        placeholder="Enter Todo Item"
+        placeholder="Enter To-do Item"
         className="inputItem"
         ref={newData}
       ></input>

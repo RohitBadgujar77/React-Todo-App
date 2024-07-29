@@ -8,7 +8,7 @@ const EmptyMessage = () => {
 
   {
     if (Items.length == 0) {
-      return <div className="empty">Todo-List is empty</div>;
+      return <div className="empty">To-do List is empty</div>;
     }
   }
 };
